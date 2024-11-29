@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const content = document.getElementById("content");
 
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    const downloadUrl = "https://www.mediafire.com/file/looz2whnoptiuap/PYMESGPS.apk/file";
+    const downloadUrl = "https://www.mediafire.com/file/doy2cs886vyec8e/app-debug.apk/file";
 
     const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(downloadUrl)}`;
 
